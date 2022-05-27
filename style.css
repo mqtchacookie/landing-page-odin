@@ -1,0 +1,77 @@
+body {
+	font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+		sans-serif;
+	margin: 0;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	background-color: #1f2937;
+	color: azure;
+	padding: 16px;
+}
+.logo {
+	width: 100px;
+}
+.shahz {
+	flex: 0;
+	float: right;
+	height: 300px;
+	border-radius: 10px;
+}
+
+.head1 {
+	padding: 8px 24px;
+	display: flex;
+	justify-content: space-between;
+}
+.head2 {
+	display: flex;
+	gap: 16px;
+	padding: 16px;
+	justify-content: space-between;
+}
+.links {
+	display: flex;
+	gap: 16px;
+}
+.open-text {
+	width: 400px;
+}
+a {
+	text-decoration: none;
+	color: azure;
+}
+
+a:hover {
+	color: #3882f6;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline;
+}
+
+button {
+	padding: 8px;
+	border-radius: 10px;
+	background-color: #3882f6;
+	border: 0;
+}
+.info-text {
+	text-align: center;
+}
+.info1 {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
