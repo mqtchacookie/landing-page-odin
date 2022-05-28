@@ -85,3 +85,19 @@ button {
 	border-radius: 15px;
 	height: 100px;
 }
+
+.quote {
+	background-color: #e5e7eb;
+	padding: 32px 64px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.quote-text {
+	text-align: left;
+	width: 600px;
+}
+.quote-author {
+	text-align: right;
+}
