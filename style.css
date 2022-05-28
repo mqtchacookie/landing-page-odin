@@ -101,3 +101,30 @@ button {
 .quote-author {
 	text-align: right;
 }
+
+.signup {
+	display: flex;
+	justify-content: center;
+	padding: 32px 64px;
+}
+
+.signup-container {
+	padding: 16px 32px;
+	background-color: #3882f6;
+	display: flex;
+	align-items: center;
+}
+
+.signup-container2 {
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+	color: aliceblue;
+}
+
+.signup-button {
+	flex: auto;
+	width: 100px;
+	border: solid #e5e7eb;
+	border-width: 5px;
+}
